@@ -1,6 +1,6 @@
 <h1 class="new">New Articles</h1>
 <p><%=render 'form'%>
-<%=link_to'Back',articles_path%>
+<p class="link"><%=link_to'Back',articles_path%></p>
 </p>
 <style>
   .new {
@@ -10,4 +10,9 @@
   p {
     text-align: center;
   }
+    .link {
+      text-align: center;
+      text-decoration: none;
+      font-size: 30px;
+    }
 </style>

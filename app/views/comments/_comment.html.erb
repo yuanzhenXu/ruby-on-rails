@@ -1,28 +1,18 @@
-<p class="commenter">
+<p>
   <strong>Commenter:</strong>
   <%= comment.commenter %>
 </p>
  
-<p class="comment">
+<p>
   <strong>Comment:</strong>
   <%= comment.body %>
 </p>
-<p class="delete">
+<p>
   <%= link_to 'Destroy Comment', [comment.article, comment],
                method: :delete,
                data: { confirm: 'Are you sure?' } %>
 </p>
 <style>
-  .commenter {
-    text-align: center;
-    color: aqua;
-    text-decoration: none;
-  }
-    .comment {
-      text-decoration: none;
-      text-align: center;
-      font-size: 21px;
-      text-shadow: aquamarine;
-    }
+
 
 </style>

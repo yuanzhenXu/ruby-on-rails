@@ -1,0 +1,32 @@
+table {
+    width: 60%;
+    margin: auto;
+    background: #fff;
+    border: 2px solid #B00100;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+}
+th {
+    height: 50px;
+    color: #fff;
+    background: #B00100;
+    font-size: 18px;
+    font-weight: 600;
+}
+td {
+    height: 50px;
+    background-color: #B00100;
+}
+
+h1 {
+    text-align: center;
+    color: #B00100;
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+}
+a.nav {
+    color: #B00100;
+}

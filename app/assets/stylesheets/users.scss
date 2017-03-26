@@ -1,3 +1,20 @@
-// Place all the styles related to the users controller here.
+// Place all the styles related to the Users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+div{
+  text-align: center;
+  border-radius: 1px ;
+  color: #B00100;
+}
+p {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+}
+.notice {
+  color: #B00100;
+}

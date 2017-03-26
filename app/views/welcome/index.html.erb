@@ -1,22 +1,9 @@
 <dl>
-  <%= link_to 'login'%>
-  <%= link_to 'signup', new_user_path%>
+  <p><%=link_to 'sign up',controller:'users'%></p>
 </dl>
 <div>
-  <h1>Welcome to Rails</h1>
+  <h1>Welcome to Rails </h1>
   <h1>Author : yuanzhenXu</h1>
   <h1><%=link_to 'Myblog',controller:'articles'%></h1>
-  <p> <%= Time.now %></p>
-
+  <p><%= Time.now %></p>
 </div>
-<style>
-  div {
-    padding: 20px;
-    text-align: center;
-    color: #B00100;
-    font-size: 30px;
-  }
-   dl {
-     float: right;
-   }
-</style>

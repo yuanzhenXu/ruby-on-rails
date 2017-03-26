@@ -5,7 +5,7 @@ class ArticlesController < ApplicationController
   def update
     @article = Article.find(params[:id])
     if @article.update(article_params)
-       redirect_to @article
+       redirect_to @article, notice: 'article was successfully updated'
     else 
       render 'edit'
     end
@@ -26,7 +26,7 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     if @article.save
-      redirect_to @article
+      redirect_to @article,notice: 'article  was successfully created'
     else
       render 'new'
     end
@@ -39,7 +39,7 @@ class ArticlesController < ApplicationController
   def destroy
     @article = Article.find(params[:id])
     @article.destroy
-    redirect_to articles_path
+    redirect_to articles_path, notice: 'article was successfully destroyed'
   end
 
   private

@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
-  get "users/new"   => "users#new",   :as => :new_user
-
   resources :users
+  get 'welcome/index'
+
 
   resources :articles
 

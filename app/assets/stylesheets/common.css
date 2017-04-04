@@ -30,3 +30,8 @@ a{
 a.nav {
     color: #B00100;
 }
+.comment {
+    border: solid;
+    padding: 1px;
+    border-color: #B00100;
+}
